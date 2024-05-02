@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "dbt-playground"
+version = "0.1.0"
+description = "Playground to explore dbt"
+authors = ["WARAGON <63374544+wp1631@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "dbt_playground"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+dbt = "^1.0.0.37.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
