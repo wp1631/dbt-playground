@@ -1,0 +1,6 @@
+name: jaffle_shop # Change from the default, `my_new_project`
+
+profile: jaffle_shop # Change from the default profile name, `default`
+
+models:
+  jaffle_shop: # Change from `my_new_project` to match the previous value for `name:`

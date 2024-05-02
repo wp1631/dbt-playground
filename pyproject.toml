@@ -10,6 +10,7 @@ packages = [{include = "dbt_playground"}]
 python = "^3.10"
 dbt = "^1.0.0.37.12"
 dbt-core = "^1.7.13"
+dbt-postgres = "^1.7.13"
 
 
 [build-system]
