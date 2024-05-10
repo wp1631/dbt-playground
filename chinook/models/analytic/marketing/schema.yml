@@ -1,0 +1,14 @@
+version: 2
+
+models:
+  - name: anal_marketing__track_info
+    description: "Human readable track information data"
+    columns:
+      - name: name
+        description: "Track's name"
+        tests:
+          - not_null
+      - name: composer
+        description: "Composer's name"
+      - name: unit_price
+        description: "Price (USD) in iTunes"

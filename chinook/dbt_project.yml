@@ -1,0 +1,13 @@
+name: chinook
+
+profile: chinook
+
+models:
+  chinook:
+    analytic:
+      +materialized: table
+      marketing:
+        +schema: marketing
+    staging:
+      +schema: staging
+      +materialized: view
